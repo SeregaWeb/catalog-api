@@ -1,0 +1,100 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.result{
+    display: flex;
+    flex-wrap: wrap;    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: #68adff;
+    margin: 5px; 
+
+}
+.one-car .card{
+    background-color: #c8cdd4;
+    flex-direction: row;
+    max-width: 600px;
+    width: 100%;    
+    justify-content: space-around;
+    align-items: center;
+}
+.card-btn{
+    border: 1px solid #68adff;
+    background-color: #53eabf;
+    margin-top: 20px;
+    padding: 10px 5px;
+    font-size: 16px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #000000;
+}
+.card-img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.one-car .card-img{
+    width: 50%;
+}
+.card-name{
+    font-size: 22px;
+    font-family: fantasy;
+    padding-left: 5px;
+}
+#tabs ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    margin-bottom: 20px;    
+}
+
+#tabs ul li a {
+    font-size: 18px;
+    color:  black;
+    padding: 10px;
+    background-color: #68adff;
+    margin-right: 5px;
+}
+
+.error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 900;
+    font-family: fantasy;
+    letter-spacing: 13px;
+    color: #ff688a;
+    text-shadow: 3px 3px black; 
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+}
+.auth{
+    display: flex;
+}
+.auth-form{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid #000;
+}
+.auth-form input {
+    margin: 5px 0;
+}
